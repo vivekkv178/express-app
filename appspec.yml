@@ -13,7 +13,7 @@ permissions:
 
 hooks:
   ApplicationStop:
-    - location: bin/before_install.sh
+    - location: bin/application_stop.sh
       timeout: 300
       runas: ec2-user
 
